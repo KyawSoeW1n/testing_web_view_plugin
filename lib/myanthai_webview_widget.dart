@@ -36,7 +36,8 @@ class _MyanThaiWebViewWidgetState extends State<MyanThaiWebViewWidget> {
   @override
   Widget build(BuildContext context) {
     return WebviewScaffold(
-      url: "https://www.myanthai.com",
+      url: "http://45.32.112.93/TLottoUser/public/",
+      // url: "https://www.myanthai.com",
       javascriptChannels: jsChannels,
       mediaPlaybackRequiresUserGesture: false,
       appBar: AppBar(
